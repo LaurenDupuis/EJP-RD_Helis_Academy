@@ -27,7 +27,7 @@ Begin by starting PathVisio. Open the "Hs_Microglia_Pathogen_Phagocytosis_Pathwa
 > *(Required for following steps!)*
 > **Which other databases have additional information about this gene through the cross references provided by BridgeDb?**
 
-## Assignment 2: Data Import in PathVisio
+## Part 2: Data Import in PathVisio
 -------------------------------------------
 > **Question 2A.** Open the statistical analysed data in Excel (RETT_vs_control_FC_filtered.txt in Pathway_Analysis_Data folder). The first column 
 > contains the identifier of the genes (ENSG_ID). From which of the three database below are the identifiers in the dataset? 
@@ -68,9 +68,9 @@ successful → please redo the import, make sure you select the correct database
 Click on the C1QA gene and check the “Data” tab on the right side → do you see the expression data?
 -----------------------------------------------------------------------------------------------------------------------------------
 
-## Assignment 3: Creating a Basic Visualization
-Follow the instruction to create a basic visualization:
-
+## Part 3: Creating a Basic Visualization
+Follow the instruction to create a basic visualization. We will visualize the logFC as a contionuous gradient so we can see the 
+differences in expression 
 1.	Go to Data → Visualization Options
 2.	Create a new visualization named “basic visualization”
 
@@ -93,8 +93,10 @@ Follow the instruction to create a basic visualization:
 
 > **Question 3B.** Select the ORC6 gene (bottom left), go to the “Data” tab. What is the logFC of the ORC6 gene?
 
-## Assignment 4: Create and Advanced Visualization
-PathVisio also allows users to visualize multiple data columns together. For that we need to create a new advanced visualization.
+## Part 4: Create and Advanced Visualization
+PathVisio also allows users to visualize multiple data columns together. For that we need to create a new advanced visualization. In 
+this case we will visualize the logFC as a gradient. We will apply a set cutoff to show whether the p value is significant and show this 
+in green.
 
 1.	Go to Data → Visualization Options
 2.	Create a new visualization named “advanced visualization”
@@ -114,26 +116,24 @@ PathVisio also allows users to visualize multiple data columns together. For tha
 
 -------------------------------------------------------------------------------------------------------
 
-## Assignment 5: Perform Pathway Statistics
+## Part 5: Perform Pathway Statistics
 
-To identify pathways that might be affected by lung cancer, you can perform pathway statistics to calculate Z-Scores for each pathway (check lecture!). PathVisio automatically ranks the pathways based on the Z-Score. 
+To identify pathways that might be affected by RETT syndrome, you can perform pathway statistics to calculate Z-Scores for each pathway. 
+PathVisio automatically ranks the pathways based on the Z-Score. 
 
 1.	Go to Menu Data → Statistics
 2.	First we need to define a criteria for differentially expressed genes. We are going to select those genes based on significant p-value but we are also going to make sure the change is high enough by specifying a logFC threshold:
-    a.	([logFC] < -1 OR [logFC] > 1) AND [P.Value] < 0.05
-
-> **Question 5A.** Explain in your own words what this expression criteria means (which genes will be selected)?
-> ([logFC] < -1 OR [logFC] > 1) AND [P.Value] < 0.05
+    a.	([logFC] < -0.58 OR [logFC] > 0.58) AND [P.Value] < 0.05
 
 3.	Now we need to specify the pathway directory. In the Pathway_Analysis_Data folder you can find the directory: 
 Wikipathways-Human-Pathways
 4.	Browse to this directory and select it. 
 5.	Then click on Calculate and wait for the result table.
 
-> **Question 5B.** What are the top 5 altered pathways and what are their Z-Scores? Do you see highly ranked pathways in the result 
-> table that you expect to be affected by RETT syndrome? (biological interpretation - link to prior knowledge!)
+> **Question 5A.** What are the top 5 altered pathways and what are their Z-Scores? Do you see highly ranked pathways in the result 
+> table that you expect to be affected by RETT syndrome?
 
-> **Question 5C** What is the pathway with the lowest Z-Score? What does a low Z-Score mean biologically? (ignore pathways with NaN)
+> **Question 5B** What is the pathway with the lowest Z-Score? What does a low Z-Score mean biologically? (ignore pathways with NaN)
 
 
 
