@@ -26,24 +26,24 @@ starts with WP followed by numbers. Copy the identifier (example WP485).
 
 **Step 3: Open the pathway in PathVisio** by clicking *Plugins* - *Wikipathways* - *Search* in the menu bar.
 
-![Figure 1](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture1.png)
+![Figure 1](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture1.png?raw=true)
 
 This will open a popup window. Click on the Pathway Search tab and search for the pathway identifier.
 
-![Figure 2](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture2.png)
+![Figure 2](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture2.png?raw=true)
 
 Double click on the pathway to open it. 
 
 **Step 4: Find the unconnected lines** by pressing Ctrl + L. The place that a line is unconnected will be highlighted with a green node.
 
-![Figure 3](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture2and1.png)
+![Figure 3](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture2and1.png?raw=true)
 
 Connect the line to the node.
 
 **Step 5: Upload the curated verion to WikiPathways** by clicking *Plugins* - *Wikipathways* - *Update* in the menu bar. A popup box 
 will appear where you need to describe the changes you have made. Fill in "Connected unconnected lines" and click Update.
 
-![Figure 4](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture3.png)
+![Figure 4](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/figures/Picture3.png?raw=true)
 
 Then you will have to fill in your WikiPathways account information, and the pathway will be updated with your contribution. Don't forget 
 to update the spreadsheet by clicking the check box marking the pathway as done.
