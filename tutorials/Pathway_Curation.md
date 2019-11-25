@@ -1,7 +1,7 @@
 # Pathway Curation
 # Curate pathways in WikiPathways
 ===============================================================================
-## november 26, 2019
+## November 26, 2019
 ---------------------------------------------------------------------------------------------------
 
 In this part, we want to show you how to curate the pathways in WikiPathways. This will also show you some of the common mistakes people 
