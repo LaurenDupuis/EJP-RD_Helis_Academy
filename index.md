@@ -7,6 +7,7 @@ Day 1: Pathway Drawing
 -----------------------
 * Introduction to Pathways and Wikipathways
 * Pathway Drawing
+    * [Examples](tutorials/Pathway_Drawing_Examples.md)
 * Pathway Curation
      * [Hands on](tutorials/Pathway_Curation.md)
 
