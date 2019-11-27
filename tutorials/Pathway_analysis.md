@@ -1,11 +1,13 @@
 EJP-RD and Helis Academy Pathway Analysis Practical
 ==============================================================================
-## Date: 26 November, 2019
+## Date: 27 November, 2019
 -----------------------
 Pathway analysis helps you to interpret the data in a biologically meaningful context. We will use the data from the paper “Transcriptome 
 analysis of human brain tissue identifies reduced expression of complement complex C1Q Genes in Rett syndrome“ by Lin et al. published in Cancer Epidemiology, 
 BMC Genomics in 2016 (see [paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2746-7)). You will need the WikiPathways human pathways collection that you can download [here](http://www.wikipathways.org/wpi/batchDownload.php?species=Homo%20sapiens&fileType=gpml&tag=Curation:AnalysisCollection) as a 
 zip file. You will need to unzip it before use.
+
+The pre-processed dataset we will use for analysis can be downloaded [here](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/RETT_vs_control_FC_filtered.txt).
 
 ## Part 1: Open a Pathway in PathVisio
 ---------------------------------------------
