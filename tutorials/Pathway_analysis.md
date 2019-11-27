@@ -18,14 +18,14 @@ Begin by starting PathVisio. Open the "Hs_Microglia_Pathogen_Phagocytosis_Pathwa
 > Double click the *info box in the top left* (Title, Availability, Last modified, Organism) and go to the “Literature” tab. 
 > **Is there a paper reference for this pathway?**
 
-> **Question 1B.** Click on the C1QA gene in the top left. With which identifier and database is this gene annotated? (Check the “Backpage” 
+> **Question 1B.** Click on the C1QB gene in the top left. With which identifier and database is this gene annotated? (Check the “Backpage” 
 > tab on the right side).  Which cross references do you see?
 
 **Load the identifier mapping database:** 
 1.	Go to Menu Data → Select Gene Database → Browse to Hs_Derby_Ensembl_91.bridge in the Data folder
 2.	Check the status bar at the bottom to see if the gene database has been loaded correctly. 
 
-> **Question 1C.** Click on the C1QA gene again and go to the “Backpage” tab. **Can you now also find other identifier(s) for this gene?**  
+> **Question 1C.** Click on the C1QB gene again and go to the “Backpage” tab. **Can you now also find other identifier(s) for this gene?**  
 > *(Required for following steps!)*
 > **Which other databases have additional information about this gene through the cross references provided by BridgeDb?**
 
@@ -93,7 +93,7 @@ differences in expression
 > **Question 3A.** Make a screenshot of the pathway. *What do the colors in the pathway mean biologically?* (Hint: Check the “Legend” tab 
 > on the right side). 
 
-> **Question 3B.** Select the ORC6 gene (bottom left), go to the “Data” tab. What is the logFC of the ORC6 gene?
+> **Question 3B.** Select the C1QA gene (top left), go to the “Data” tab. What is the logFC of the C1QA gene?
 
 ## Part 4: Create and Advanced Visualization
 PathVisio also allows users to visualize multiple data columns together. For that we need to create a new advanced visualization. In 
