@@ -55,7 +55,7 @@ By double-clicking on the current mapping, you can open a popup window to change
 #### **Step 1: Gene selection**
 •	Import the dataset (RETT_vs_control_FC_filtered.txt) in Excel. 
 •	Select the significantly down-regulated genes with a log2FC < -0.58 → filter the table by log2FC (<-0.58) and the P.Value (< 0.05). 
-•	Copy the Ensembl IDs of the 128 genes.
+•	Copy the Ensembl IDs of the 133 genes.
 #### **Step 2: Create PPI network for gene selection**
 •	In Cytoscape, go to the Control Panel and select the STRING protein query (drop-down box left to search field) and paste the 133 gene 
 names in the query field 
