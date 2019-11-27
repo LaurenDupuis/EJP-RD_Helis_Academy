@@ -8,6 +8,9 @@
 In this part, we want to show you different ways of how you can build biological network relevant for a biological research topic. 
 Cytoscape has a lot more functionality and you are free to explore other apps in the project if you want to. 
 
+The data used for the tutorials is from the study of [Lin et al. 2016](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2746-7), and the pre-processed dataset we will use for analysis 
+can be downloaded [here](https://github.com/LaurenDupuis/EJP-RD_Helis_Academy/blob/master/tutorials/RETT_vs_control_FC_filtered.txt).
+
 ### Part 1: Import the Microglia Pathogen Phagocytosis pathway in Cytoscape
 
 Before beginning, make sure the WikiPathways App is installed. Click “Apps” - “App Manager”. Search for WikiPathways and click “Install”. 
