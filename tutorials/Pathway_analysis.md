@@ -1,6 +1,6 @@
 EJP-RD and Helis Academy Pathway Analysis Practical
 ==============================================================================
-## Date: 27 November, 2019
+
 -----------------------
 Pathway analysis helps you to interpret the data in a biologically meaningful context. We will use the data from the paper “Transcriptome 
 analysis of human brain tissue identifies reduced expression of complement complex C1Q Genes in Rett syndrome“ by Lin et al. published in Cancer Epidemiology, 
